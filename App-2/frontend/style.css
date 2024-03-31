@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+  height: 100%;
+  margin: 200px auto;
+  border: 2px solid rgb(85, 224, 80);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.form {
+  display: grid;
+  margin: 10px;
+  color: bisque;
+}
+
+.name {
+  margin: 20px 5px 5px 5px;
+  height: 30px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.email {
+  margin: 5px 5px;
+  height: 30px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.password {
+  margin: 5px 5px;
+  height: 30px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.btn {
+  border: 2px solid bisque;
+  border-radius: 20px;
+  margin: 20px 10px auto 10px;
+  font-size: 1.3rem;
+  background-color: rgb(85, 224, 80);
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 2px 1px 5px 1px bisque;
+}
